@@ -14,8 +14,8 @@ public class Car extends Vehicle{
 	}
 	@Override
 	public String toString() {
-		return "Car [type=" + type + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
-				+ super.toString() + "]";
+		return "Car [type=" + type + ", color=" + color + ", model=" + model + ", wheels=" + wheels + "]";
 	}
+	
 
 }

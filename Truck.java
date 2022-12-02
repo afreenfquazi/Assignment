@@ -18,8 +18,10 @@ public class Truck extends Vehicle {
 	}
 	@Override
 	public String toString() {
-		return "Truck [isHeadLight=" + isHeadLight + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
-				+ ", toString()=" + super.toString() + "]";
+		return "Truck [isHeadLight=" + isHeadLight + ", color=" + color + ", model=" + model + ", wheels=" + wheels
+				+ "]";
 	}
+	
+	
 	
 }

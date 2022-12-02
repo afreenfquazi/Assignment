@@ -15,8 +15,7 @@ public class Bus extends Vehicle{
 	}
 	@Override
 	public String toString() {
-		return "Bus [capacity=" + capacity + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
-				+ ", toString()=" + super.toString() + "]";
+		return "Bus [capacity=" + capacity + ", color=" + color + ", model=" + model + ", wheels=" + wheels + "]";
 	}
 	
 }
