@@ -10,17 +10,17 @@ public class Vehicle {
 		this.wheels = wheels;
 		
 	}
-	public void canHonk() {
+	protected void canHonk() {
 		System.out.println("it can honk");
 	}
 	
-	public void haveHeadlights() {
+	protected void haveHeadlights() {
 		System.out.println("Yes it has headlight");
 	}
-	@Override
-	public String toString() {
+	public String display() {
 		return "Vehicle [color=" + color + ", model=" + model + ", wheels=" + wheels + "]";
 	}
+	
 	
 	
 }
