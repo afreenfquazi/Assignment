@@ -1,26 +1,14 @@
-package org.animals;
+package worker;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Animal dr = new Deer();
-		dr.canClimb();
-		dr.isVegetarian();
-		Elephant e = new Elephant();
-		e.canClimb();
-		e.isVegetarian();
-		Giraffe g = new Giraffe();
-		g.canClimb();
-		g.isVegetarian();
-		Lion l = new Lion();
-		l.canClimb();
-		l.isVegetarian();
-		Monkey m= new Monkey();
-		m.canClimb();
-		m.isVegetarian();
-		Tiger t= new Tiger();
-		t.canClimb();
-		t.isVegetarian();
+		DailyWorker dw = new DailyWorker("Suresh",300);
+		System.out.println("Dailyworker Weekly Salary is "+dw.pay(5));
+		SalariedWorker sw = new SalariedWorker("Naresh",45);
+		System.out.println("Salaried Worker Weekly salary is "+sw.pay(40));
+		
+
 	}
 
 }
