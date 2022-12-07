@@ -1,16 +1,10 @@
-package org.animals;
+package animalTypes;
 
-public class Lion extends Animal{
-	String color;
-	float weight;
-	int age;
-	public void isVegetarian() {
-		System.out.println("this lion is  not vegetarian");
+public class Lion extends WildAnimals {
+
+	public Lion(String livin, String foodType) {
+		super(livin, foodType);
+		// TODO Auto-generated constructor stub
 	}
-	public void canClimb() {
-		System.out.println("it can climb");
-	}
-	public void sound() {
-		System.out.println("it makes sound roaaar");
-	}
+
 }
