@@ -1,6 +1,6 @@
 package org.animals;
 
-public class Deer {
+public class Deer extends Animal{
 	public String color= "brown";
 	public float weight = 50;
 	public int age  = 10;

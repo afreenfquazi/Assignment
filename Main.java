@@ -1,13 +1,26 @@
-package com.practice.assignment1;
+package org.animals;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Shape shape = new Shape();
-		System.out.println("Area of Square is "+shape.area(4));
-		System.out.println("Area of Rectangle is "+shape.area(2, 4));
-		System.out.println("Perimeter of square is "+shape.perimeter(3));
-		System.out.println("Perimeter of rectangle is "+shape.perimeter(3,5));
+		Animal dr = new Deer();
+		dr.canClimb();
+		dr.isVegetarian();
+		Elephant e = new Elephant();
+		e.canClimb();
+		e.isVegetarian();
+		Giraffe g = new Giraffe();
+		g.canClimb();
+		g.isVegetarian();
+		Lion l = new Lion();
+		l.canClimb();
+		l.isVegetarian();
+		Monkey m= new Monkey();
+		m.canClimb();
+		m.isVegetarian();
+		Tiger t= new Tiger();
+		t.canClimb();
+		t.isVegetarian();
 	}
 
 }
