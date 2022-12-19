@@ -1,5 +1,6 @@
 package com.practice.assignment1;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class CalcWithTry {
@@ -35,6 +36,9 @@ public class CalcWithTry {
 		}
 		catch(ArithmeticException ex ) {
 			System.out.println("Cannot divide numberby zero");
+		}
+		catch(InputMismatchException ex1) {
+			System.out.println("invalid input");
 		}
 		finally {
 			sc.close();
